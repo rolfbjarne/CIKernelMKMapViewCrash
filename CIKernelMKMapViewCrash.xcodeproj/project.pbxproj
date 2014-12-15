@@ -14,6 +14,7 @@
 		7E3AADE01A3EFDEF00E5DB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AADDF1A3EFDEF00E5DB18 /* Images.xcassets */; };
 		7E3AADE31A3EFDEF00E5DB18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AADE11A3EFDEF00E5DB18 /* LaunchScreen.xib */; };
 		7E3AADEF1A3EFDEF00E5DB18 /* CIKernelMKMapViewCrashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AADEE1A3EFDEF00E5DB18 /* CIKernelMKMapViewCrashTests.m */; };
+		7E3AADF91A3F035800E5DB18 /* 114_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AADF81A3F035800E5DB18 /* 114_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		7E3AADE81A3EFDEF00E5DB18 /* CIKernelMKMapViewCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIKernelMKMapViewCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3AADED1A3EFDEF00E5DB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3AADEE1A3EFDEF00E5DB18 /* CIKernelMKMapViewCrashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIKernelMKMapViewCrashTests.m; sourceTree = "<group>"; };
+		7E3AADF81A3F035800E5DB18 /* 114_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		7E3AADD11A3EFDEF00E5DB18 /* CIKernelMKMapViewCrash */ = {
 			isa = PBXGroup;
 			children = (
+				7E3AADF81A3F035800E5DB18 /* 114_icon.png */,
 				7E3AADD61A3EFDEF00E5DB18 /* AppDelegate.h */,
 				7E3AADD71A3EFDEF00E5DB18 /* AppDelegate.m */,
 				7E3AADD91A3EFDEF00E5DB18 /* ViewController.h */,
@@ -168,6 +171,7 @@
 				TargetAttributes = {
 					7E3AADCE1A3EFDEF00E5DB18 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = C9D4426WFH;
 					};
 					7E3AADE71A3EFDEF00E5DB18 = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3AADDE1A3EFDEF00E5DB18 /* Main.storyboard in Resources */,
+				7E3AADF91A3F035800E5DB18 /* 114_icon.png in Resources */,
 				7E3AADE31A3EFDEF00E5DB18 /* LaunchScreen.xib in Resources */,
 				7E3AADE01A3EFDEF00E5DB18 /* Images.xcassets in Resources */,
 			);
@@ -345,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CIKernelMKMapViewCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CIKernelMKMapViewCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
